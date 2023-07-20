@@ -1,4 +1,4 @@
-Pasta criada com o intuito de criar uma automação Terraform para aplicar o Start/Stop em uma instância AWS.
+Repo criado com o intuito de criar uma automação Terraform para aplicar o Start/Stop em uma instância AWS.
 
 
 Como é feito o Start/Stop manualmente: 👇🏻
