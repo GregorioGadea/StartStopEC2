@@ -13,7 +13,7 @@ Código Start EC2:
 -------------------------------------------------------------
 import boto3
 region = 'sa-east-1' <---- Região da máquina
-instances = ['i-0ab42e1ed37e12eaa']   <---- ID da instância
+instances = ['i-0ab42e1ed37f12ead']   <---- ID da instância
 ec2 = boto3.client('ec2', region_name=region)
 
 def lambda_handler(event, context):
@@ -24,7 +24,7 @@ Código Stop EC2:
 --------------------------------------------------------------
 import boto3
 region = 'sa-east-1'
-instances = ['i-0ab42e1ed37e12eaa']
+instances = ['i-0ab42e1ed37f12ead']
 ec2 = boto3.client('ec2', region_name=region)
 
 def lambda_handler(event, context):
